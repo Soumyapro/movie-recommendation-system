@@ -35,6 +35,3 @@ recommend('The Godfather', n=10)
 ```
 
 Returns the titles of the 10 movies most similar to the query, ranked by cosine similarity.
-- Deduplicate or disambiguate titles before building the lookup index; key recommendations by `id` rather than `title`.
-- Persist the fitted vectorizer and TF-IDF matrix (e.g. with `joblib`) for reuse without recomputing.
-
