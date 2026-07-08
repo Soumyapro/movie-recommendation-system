@@ -4,7 +4,7 @@ A content-based movie recommender built on plot overviews, genres, and taglines.
 
 ## Dataset
 
-[The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) (Rounak Banik, Kaggle). Metadata for ~45,000 movies scraped from TMDB and GroupLens, including overviews, genres, taglines, cast/crew, ratings, and revenue.
+[The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset). Metadata for ~45,000 movies scraped from TMDB and GroupLens, including overviews, genres, taglines, cast/crew, ratings, and revenue.
 
 This project uses only `movies_metadata.csv`. The full Kaggle dataset also includes `credits.csv`, `keywords.csv`, `links.csv`, and `ratings.csv` (user-level ratings), which are **not** used here.
 
