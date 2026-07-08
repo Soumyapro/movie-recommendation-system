@@ -36,7 +36,6 @@ recommend('The Godfather', n=10)
 
 Returns the titles of the 10 movies most similar to the query, ranked by cosine similarity.
 
-**Note:** lookups are by exact title string match. If a title occurs more than once in the dataset (see Known Issues below), the lookup is ambiguous — query by row index instead when working with duplicated titles.
 
 ## Known Issues
 
@@ -52,6 +51,3 @@ Returns the titles of the 10 movies most similar to the query, ranked by cosine 
 - Deduplicate or disambiguate titles before building the lookup index; key recommendations by `id` rather than `title`.
 - Persist the fitted vectorizer and TF-IDF matrix (e.g. with `joblib`) for reuse without recomputing.
 
-## License
-
-Dataset license per Kaggle's terms for [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset). Code in this repository: add a license of your choice.
